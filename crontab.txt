@@ -21,6 +21,6 @@
 # 
 # m h  dom mon dow   command
 
-00 17 * * * /${HOME}/bin/save-radio-sfax.sh 7200 > /dev/null 2>&1
-59 01 * * * /${HOME}/bin/stream-radio.sh 7200 > /dev/null 2>&1
+00 17 * * * ${HOME}/bin/save-radio-sfax.sh 7200 > /dev/null 2>&1
+59 01 * * * ${HOME}/bin/stream-radio.sh 7200 > /dev/null 2>&1
 00 04 * * * killall -9 vlc > /dev/null 2>&1
