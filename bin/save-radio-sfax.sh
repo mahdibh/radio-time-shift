@@ -10,7 +10,7 @@ log() {
 }
 
 
-radio_url="mms://stream1.tanitweb.com/radiosfax"
+radio_url="rtmp://streamedge.radiotunisienne.com:1936/rliveedge/streamsfa/streamsfa"
 radio_name="radio_sfax"
 #radio_url="mms://stream1.tanitweb.com/radionationale"
 #radio_name="radio_nationale"
